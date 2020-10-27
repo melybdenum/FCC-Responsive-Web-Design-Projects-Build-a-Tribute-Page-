@@ -1,0 +1,71 @@
+#main {
+  background: linear-gradient(90deg, rgba(186,83,112,1) 0%, rgba(244,226,216,1) 60%);
+  padding: 10px 10px;
+}
+  #title {
+  font-family: 'IM Fell Double Pica', serif;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+#img-div {
+  background: white;
+  padding: 10px 10px 10px 10px;
+  margin: 0;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#caption {
+  text-align: center;
+}
+
+#bio {
+  text-align: center;
+  font-family: 'IM Fell Double Pica', serif;
+}
+
+#tribute-info {
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+a {
+  color: #c98686;
+}
+
+a:hover {
+  color: #966b9d;
+}
+
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  #tribute-info {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
